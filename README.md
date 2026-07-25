@@ -310,7 +310,7 @@ Flow AI aims to create a single platform where teachers can teach, students can 
 * **Vercel**
 * **Android Studio / TWA / WebView**
 * **Google Play Console / Google Play Store**
-  click able link   [file-tag: code-generated-file-18812f38-4425-4bf5-80c0-969c5464f2c8]
+  LINK                                                                                                                                                   click able link   [file-tag: code-generated-file-18812f38-4425-4bf5-80c0-969c5464f2c8]
 
 ❤️ Flow AI
 
