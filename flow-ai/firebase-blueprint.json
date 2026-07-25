@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "users": {
+      "path": "/users/{userId}",
+      "fields": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string" },
+        "avatar": { "type": "string" },
+        "isSubscribedTeacher": { "type": "boolean" },
+        "subscriptionRenewsAt": { "type": "string" }
+      },
+      "read": "true",
+      "write": "true"
+    },
+    "tasks": {
+      "path": "/tasks/{taskId}",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "dueDate": { "type": "string" },
+        "dueTime": { "type": "string" },
+        "priority": { "type": "string" },
+        "estimatedMinutes": { "type": "number" },
+        "status": { "type": "string" },
+        "aiSuggested": { "type": "boolean" }
+      },
+      "read": "true",
+      "write": "true"
+    },
+    "classes": {
+      "path": "/classes/{classId}",
+      "fields": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "code": { "type": "string" },
+        "subject": { "type": "string" },
+        "teacherId": { "type": "string" },
+        "teacherName": { "type": "string" },
+        "schedule": { "type": "string text" },
+        "studentCount": { "type": "number" },
+        "enrolledStudentIds": { "type": "array" }
+      },
+      "read": "true",
+      "write": "true"
+    },
+    "announcements": {
+      "path": "/announcements/{announcementId}",
+      "fields": {
+        "id": { "type": "string" },
+        "classId": { "type": "string" },
+        "className": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorId": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "read": "true",
+      "write": "true"
+    },
+    "notes": {
+      "path": "/notes/{noteId}",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "classId": { "type": "string" },
+        "subject": { "type": "string" },
+        "type": { "type": "string" },
+        "content": { "type": "string" },
+        "fileUrl": { "type": "string" },
+        "fileName": { "type": "string" },
+        "fileSize": { "type": "string" },
+        "uploadedAt": { "type": "string" },
+        "aiSummary": { "type": "string" }
+      },
+      "read": "true",
+      "write": "true"
+    },
+    "assignments": {
+      "path": "/assignments/{assignmentId}",
+      "fields": {
+        "id": { "type": "string" },
+        "classId": { "type": "string" },
+        "className": { "type": "string text" },
+        "title": { "type": "string" },
+        "instructions": { "type": "string" },
+        "dueDate": { "type": "string" },
+        "totalPoints": { "type": "number" },
+        "submissions": { "type": "array" }
+      },
+      "read": "true",
+      "write": "true"
+    },
+    "quizzes": {
+      "path": "/quizzes/{quizId}",
+      "fields": {
+        "id": { "type": "string" },
+        "classId": { "type": "string" },
+        "className": { "type": "string" },
+        "title": { "type": "string" },
+        "timeLimitMinutes": { "type": "number" },
+        "questions": { "type": "array" },
+        "attempts": { "type": "array" }
+      },
+      "read": "true",
+      "write": "true"
+    }
+  }
+}

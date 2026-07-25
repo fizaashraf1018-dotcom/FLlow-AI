@@ -1,0 +1,6 @@
+{
+  "name": "Flow AI",
+  "description": "AI-powered learning, productivity, and collaboration platform for Teachers, Students, Entrepreneurs, Freelancers, and Professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
