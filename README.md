@@ -298,7 +298,19 @@ Flow AI aims to create a single platform where teachers can teach, students can 
 - Team Management
 - Advanced Analytics
 
----
+--## 🛠️ Tools & Technologies Used
+
+* **HTML5 / CSS3 / JavaScript**
+* **React / Vite**
+* **Google Fonts & FontAwesome**
+* **AI Model / API**
+* **Git**
+* **GitHub**
+* **GitHub Desktop**
+* **Vercel**
+* **Android Studio / TWA / WebView**
+* **Google Play Console / Google Play Store**
+  click able link   [file-tag: code-generated-file-18812f38-4425-4bf5-80c0-969c5464f2c8]
 
 ❤️ Flow AI
 
